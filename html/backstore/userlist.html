@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/aisles.css">
+        <title>User List</title>
+    </head>
+    <body>
+        <!---Unsticky navbar (all centered)-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4">
+                            <a href="/index.html" class="nav-link lead navbar-brand">Foodigo</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-4">
+                            <a href="#" class="nav-link lead">Admin panel</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#" class="nav-link lead">Welcome Admin !</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/login.html" class="nav-link lead">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>   
+        <nav class="navbar bg-dark navbar-dark sticky-top">
+            <div class="container">
+                <a href="#" class="navbar-brand mx-auto lead">User List</a>
+            </div>
+        </nav>
+        <div class="container mt-5">
+            <table class="table table-secondary table-striped table-responsive">
+                <thead>
+                  <tr class="bg-dark text-light">
+                    <th scope="col">ID</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Adress</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Province</th>
+                    <th scope="col">Postal code</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">U1408</th>
+                    <td>AdamAaquil</td>
+                    <td>adamaaquil@gmail.com</td>
+                    <td>Admin</td>
+                    <td>50 avenue de baviere</td>
+                    <td>Candiac</td>
+                    <td>QC</td>
+                    <td>J5R 5P4</td>
+                    <td>
+                        <a href="/html/backstore/useredit.html"><i class="bi bi-gear-fill text-warning h4"></i></a>
+                    </td>
+                    <td>
+                        <a href="#"><i class="bi bi-person-x-fill text-danger h4 ml-3"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">U0927</th>
+                    <td>AymaneAaquil</td>
+                    <td>Aymaneaaquil50@gmail.com</td>
+                    <td>Admin</td>
+                    <td>40 bishop</td>
+                    <td>Montreal</td>
+                    <td>QC</td>
+                    <td>J4E 4P2</td>
+                    <td>
+                        <a href="/html/backstore/useredit.html"><i class="bi bi-gear-fill text-warning h4"></i></a>
+                    </td>
+                    <td>
+                        <a href="#"><i class="bi bi-person-x-fill text-danger h4 ml-3"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">U6460</th>
+                    <td>JohnSmith</td>
+                    <td>JohnSmith@gmail.com</td>
+                    <td>Customer</td>
+                    <td>14 Crescent Dr</td>
+                    <td>Calgary</td>
+                    <td>AB</td>
+                    <td>H2L 3X4</td>
+                    <td>
+                        <a href="/html/backstore/useredit.html"><i class="bi bi-gear-fill text-warning h4"></i></a>
+                    </td>
+                    <td>
+                        <a href="#"><i class="bi bi-person-x-fill text-danger h4 ml-3"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">U2403</th>
+                    <td>AlbertDoe</td>
+                    <td>AlbertDoe@gmail.com</td>
+                    <td>customer</td>
+                    <td>38 Main street</td>
+                    <td>Vancouver</td>
+                    <td>BC</td>
+                    <td>D4L 2U4</td>
+                    <td>
+                        <a href="/html/backstore/useredit.html"><i class="bi bi-gear-fill text-warning h4"></i></a>
+                    </td>
+                    <td>
+                        <a href="#"><i class="bi bi-person-x-fill text-danger h4 ml-3"></i></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <button class="buttonshad buttonstyling bg-primary text-light">Add user</button>
+        </div>             
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

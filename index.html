@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/aisles.css">
+        <title>Foodigo</title>
+    </head>
+    <body>
+        <!---Unsticky navbar (all centered)-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-4">
+                            <a href="#" class="nav-link lead">Home</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#aisles" class="nav-link lead">Ailes</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/SignUp.html" class="nav-link lead">Sign Up</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/login.html" class="nav-link lead">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Sticky navbar only with navbrand (centered)-->
+        <nav class="navbar bg-dark navbar-dark sticky-top">
+            <div class="container">
+                <a href="#" class="navbar-brand mx-auto lead">Foodigo</a>
+            </div>
+        </nav>
+        <!--Under the navbar-->
+        <section class="bg-dark text-light p-5 text-center">
+            <div class="container">
+                <div class="d-sm-flex">
+                    <div>
+                        <h1>Why Use <span class="text-primary"> Foodigo</span> ?</h1>
+                        <p class="lead" >Here will be a dropdown using java scrip, with three options to toggle, with a little explanation for each of the dropdown component <br>1)fast shipping <br>2)fresh products <br>3)Local product</p>
+                    </div>
+                    <img class="img-fluid w-50 px-5 d-none d-lg-block" src="/img/random/pngaaa.com-925428.png" alt="Logo">
+                </div>
+            </div>
+        </section>
+        <!--Aisles title-->
+        <div class="container p-5">
+            <h1 class="fw-bold text-center" id="aisles">Our aisles</h1>
+        </div>
+        <!--Aisles display-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white ">
+                        <img src="/img/ailes pictures/v&f.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">Fruits & Vegetables</h3>
+                                <a href="/html/ailes/fruits&vegetables.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Shop</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white">
+                        <img src="/img/ailes pictures/Meat.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">Meat</h3>
+                                <a href="/html/ailes/meat.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Shop</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white">
+                        <img src="/img/ailes pictures/Eggs&dairy.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">Dairy & Eggs</h3>
+                                <a href="/html/ailes/dairy&eggs.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Shop</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white">
+                        <img src="/img/ailes pictures/snacks.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">Snacks</h3>
+                                <a href="/html/ailes/snacks.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Shop</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white">
+                        <img src="/img/ailes pictures/drinks.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">Drinks</h3>
+                                <a href="/html/ailes/Drinks.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Shop</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white">
+                        <img src="/img/ailes pictures/bakery.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">Bakery</h3>
+                                <a href="/html/ailes/bakery.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Shop</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <nav class="navbar bg-dark navbar-dark sticky-top">
+                <div class="container">
+                    <a href="/html/backstore/admincontrol.html" class="navbar-brand mx-auto lead">Admin page</a>
+                </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

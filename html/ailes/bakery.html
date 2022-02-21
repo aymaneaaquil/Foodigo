@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/aisles.css">
+        
+        <title>Bakery</title>
+    </head>
+    <body>
+         <!---Unsticky navbar (all centered)-->
+         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-4">
+                            <a href="/html/SignUp.html" class="nav-link lead">Sign Up</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/index.html" class="nav-link lead">Foodigo</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/login.html" class="nav-link lead">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Sticky navbar only with navbrand-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <a href="" class="navbar-brand ms-auto">Bakery</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4">
+                            <a href="/html/ailes/meat.html" class="nav-link lead">Meat</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/ailes/dairy&eggs.html" class="nav-link lead">Dairy & Eggs</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/ailes/snacks.html" class="nav-link lead">Snack</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/ailes/drinks.html" class="nav-link lead">Drinks</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/ailes/fruits&vegetables.html" class="nav-link lead">Fruits & Vegetables</a>
+                        </li>
+                        <a href="/html/cart.html"> <i class="bi bi-basket2-fill h2 cart-color"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Cards for product 3 per row-->
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-dark bg-white ">
+                        <a href="/html/Products/bakery/14grains.html"><img src="/img/Bakery/14 grains.jpeg" alt="" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-title display-5 lead">14 Grains Sliced Bread</p>
+                            <p class="lead small">14 Grains bread contains 23g of whole grains, 3g of fibre and 5g of protein per slice.</p>
+                        </div>
+                        <div>
+                            <div class="card-footer footer-color text-center">
+                                <p class="lead h6">4.29$/each</p>
+                                <a href="/html/Products/bakery/14grains.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">details</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-dark bg-white ">
+                        <a href="/html/Products/bakery/buttercroissant.html"><img src="/img/Bakery/Croissants.jpeg" alt="" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-title display-5 lead">Butter Croissants</p>
+                            <p class="lead small">Perfect for your breakfast and snacks, they are a source of vitamin D.</p>
+                        </div>
+                        <div>
+                            <div class="card-footer footer-color text-center">
+                                <p class="lead h6">1.86$/each</p>
+                                <a href="/html/Products/bakery/buttercroissant.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">details</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-dark bg-white ">
+                        <a href="/html/Products/bakery/baguette.html"><img src="/img/Bakery/baguette.jpeg" alt="" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-title display-5 lead">Parisian Baguette Artisan</p>
+                            <p class="lead small">The classic French baguette 100% natural and made with locally grown wheat.</p>
+                        </div>
+                        <div>
+                            <div class="card-footer footer-color text-center">
+                                <p class="lead h6">3.49$/each</p>
+                                <a href="/html/Products/bakery/baguette.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">details</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-dark bg-white ">
+                        <a href="/html/Products/bakery/pita.html"><img src="/img/Bakery/pita .jpeg" alt="" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-title display-5 lead">White pita bread</p>
+                            <p class="lead small">Trans fat and cholesterol free white pita bread.</p>
+                        </div>
+                        <div>
+                            <div class="card-footer footer-color text-center">
+                                <p class="lead h6">1.99$/each</p>
+                                <a href="/html/Products/bakery/pita.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">details</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

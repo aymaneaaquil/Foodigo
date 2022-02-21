@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/aisles.css">
+        <title>Your cart</title>
+    </head>
+    <body class="bg-white">
+        <!---Unsticky navbar (all centered)-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-4">
+                            <a href="/index.html" class="nav-link lead">Home</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/SignUp.html" class="nav-link lead">Sign Up</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/login.html" class="nav-link lead">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Sticky navbar only with navbrand (centered)-->
+        <nav class="navbar bg-dark navbar-dark sticky-top">
+            <div class="container">
+                <a href="/html/index.html" class="navbar-brand mx-auto lead">Foodigo</a>
+            </div>
+        </nav>
+        <h1 style="text-align: center;" class="pt-5">Your Cart</h1>
+        <main style="max-width:960px container" class="p-5">
+            
+            <div class="container-fluid">
+              <div class="row align-items-start">
+                <div class="col-12 col-sm-8 items">
+                  <!--item1-->
+                  <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                      <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img src="/img/drinks/redbull.jpeg"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <p class="lead fw-normal mb-2">Energy drink</p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2">
+                            <h4><i class="bi bi-dash-circle-fill"></i></h4>
+                          </button>
+                          <input id="form1" min="0" name="quantity" value="2" type=""
+                            class="form-control form-control-sm" />
+                          <button class="btn btn-link px-2">
+                            <h4><i class="bi bi-plus-circle-fill"></i></h4>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h5 class="mb-0">$7.78</h5>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-danger"><i class="bi bi-x-square-fill h3"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--item2-->
+                  <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                      <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img src="/img/Fruits&vegetables/apple spartan.jpeg"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <p class="lead fw-normal mb-2">Spartan Apple</p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2">
+                            <h4><i class="bi bi-dash-circle-fill"></i></h4>
+                          </button>
+                          <input id="form1" min="0" name="quantity" value="2" type=""
+                            class="form-control form-control-sm" />
+                          <button class="btn btn-link px-2">
+                            <h4><i class="bi bi-plus-circle-fill"></i></h4>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h5 class="mb-0">$4.98</h5>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-danger"><i class="bi bi-x-square-fill h3"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--item3-->
+                  <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                      <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img src="/img/Dairy&eggs/eggs.jpeg"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <p class="lead fw-normal mb-2">Eggs</p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-link px-2">
+                            <h4><i class="bi bi-dash-circle-fill"></i></h4>
+                          </button>
+                          <input id="form1" min="0" name="quantity" value="2" type=""
+                            class="form-control form-control-sm" />
+                          <button class="btn btn-link px-2">
+                            <h4><i class="bi bi-plus-circle-fill"></i></h4>
+                          </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h5 class="mb-0">$6.78</h5>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <a href="#!" class="text-danger"><i class="bi bi-x-square-fill h3"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Bill-->
+                </div>
+                <div class="col-12 col-sm-4 p-3 container card rounded-3">
+                  <div class="row m-0">
+                    <div class="col-sm-8 p-0">
+                      <h6>Number of Items</h6>
+                    </div>
+                    <div class="col-sm-4 p-0">
+                      <p>6</p>
+                    </div>
+                  </div>
+                  <div class="row m-0">
+                    <div class="col-sm-8 p-0">
+                      <h6>Subtotal</h6>
+                    </div>
+                    <div class="col-sm-4 p-0">
+                      <p>$19.54</p>
+                    </div>
+                  </div>
+                  <div class="row m-0">
+                    <div class="col-sm-8 p-0">
+                      <h6>Shipping</h6>
+                    </div>
+                    <div class="col-sm-4 p-0">
+                      <p>$10.00</p>
+                    </div>
+                  </div>
+                  <div class="row m-0">
+                    <div class="col-sm-8 p-0 ">
+                      <h6>QST</h6>
+                    </div>
+                    <div class="col-sm-4 p-0">
+                      <p>$3.50</p>
+                    </div>
+                  </div>
+                  <div class="row m-0">
+                    <div class="col-sm-8 p-0 ">
+                      <h6>GST</h6>
+                    </div>
+                    <div class="col-sm-4 p-0">
+                      <p>$6.40</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row mx-0 mb-2">
+                    <div class="col-sm-8 p-0 d-inline">
+                      <h5 class="primary">Total</h5>
+                    </div>
+                    <div class="col-sm-4 p-0">
+                      <p>$29.44</p>
+                    </div>
+                  </div>
+                  <!--Checkout button-->
+                  <button type="button" class="btn btn-info bg-primary">Checkout</button>
+                </div>
+              </div>
+            </div>
+            </div>
+          </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
+

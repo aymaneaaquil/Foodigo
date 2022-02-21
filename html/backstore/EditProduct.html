@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/aisles.css">
+        <title>Edit Product</title>
+    </head>
+    <body>
+        <!---Unsticky navbar (all centered)-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4">
+                          <a href="/index.html" class="nav-link lead navbar-brand">Foodigo</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-4">
+                            <a href="#" class="nav-link lead">Admin panel</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#" class="nav-link lead">Welcome Admin !</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/login.html" class="nav-link lead">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>   
+        <nav class="navbar bg-dark navbar-dark sticky-top">
+            <div class="container">
+                <a href="#" class="navbar-brand mx-auto lead">Edit product</a>
+            </div>
+        </nav>
+       <div class="d-flex align-items-center justify-content-center py-5">
+        <div class="card w-50">
+            <div class="card-header">
+            <div class="container text-center">                
+                  <label class="lead">Select a product</label>
+                <select class="form-control">
+                        <option>Select product</option>
+                        <option>3002</option>
+                        <option>5002</option>
+                        <option>3004</option>
+                 </select>
+            </div>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Upload picture</label>
+                        <input class="form-control" type="file">
+                      </div>
+                    <div class="form-group">
+                        <label class="lead">Product ID</label>
+                        <input type="text" class="form-control" placeholder="Input Product ID">
+                      </div>
+                      <div class="form-group">
+                        <label class="lead">Name</label>
+                        <input type="text" class="form-control" placeholder="Input Product Name">
+                      </div>
+                      <div class="form-group">
+                        <label class="lead">Brand</label>
+                        <input type="text" class="form-control" placeholder="Input Product Brand">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text">.99</span>
+                      </div>
+                      
+                        <div class="form-group">
+                            <label class="lead">Ailes</label>
+                            <select class="form-control">
+                              <option selected >Choose Aisle</option>
+                              <option>Dairy&Eggs</option>
+                              <option>Fruit&Vegetables</option>
+                              <option>Bakery</option>
+                              <option>Snacks</option>
+                              <option>Drinks</option>
+                              <option>Meat</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label class="lead">Weight</label>
+                            <input type="text" class="form-control" placeholder="Input Product Weight">
+                          </div>
+                          <div class="form-group">
+                            <label class="lead">Calories</label>
+                            <input type="text" class="form-control" placeholder="Input Product Calories">
+                          </div>
+                          <div class="form-group">
+                            <label class="lead">Available Quantity</label>
+                            <input type="text" class="form-control" placeholder="Input Available Quantity">
+                          </div>
+                      <button type="submit" class="btn btn-primary btn-lg">Save changes</button>
+                      
+                  </form>
+            </div>
+          </div>
+       </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

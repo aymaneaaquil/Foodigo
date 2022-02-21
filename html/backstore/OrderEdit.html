@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/aisles.css">
+        <title>Edit Order</title>
+    </head>
+    <body>
+        <!---Unsticky navbar (all centered)-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4">
+                            <a href="/index.html" class="nav-link lead navbar-brand">Foodigo</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-4">
+                            <a href="#" class="nav-link lead">Admin panel</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#" class="nav-link lead">Welcome Admin !</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/login.html" class="nav-link lead">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>   
+        <nav class="navbar bg-dark navbar-dark sticky-top">
+            <div class="container">
+                <a href="#" class="navbar-brand mx-auto lead">Edit order</a>
+            </div>
+        </nav>
+       <div class="d-flex align-items-center justify-content-center py-5">
+        <div class="card w-50">
+            <div class="card-header">
+            <div class="container text-center">                
+                  <label class="lead">Select a product or create one</label>
+                <select class="form-control">
+                        <option>New product</option>
+                        <option>91832</option>
+                        <option>72832</option>
+                        <option>82731</option>
+                 </select>
+            </div>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label class="lead">User</label>
+                        <select class="form-control">
+                            <option selected>Choose</option>
+                            <option>AdamAaquil</option>
+                            <option>AymaneAaquil</option>
+                            <option>JohnSmith</option>
+                            <option>AlbertDoe</option>
+                          </select>
+                      </div>
+                    <div class="form-group">
+                        <label class="lead">Adress</label>
+                        <input type="text" class="form-control" placeholder="Adress">
+                      </div>
+                      <div class="form-group">
+                        <label class="lead">City</label>
+                        <input type="text" class="form-control" placeholder="City">
+                      </div>
+                      <div class="form-group">
+                        <label class="lead">Province</label>
+                        <select class="form-control">
+                          <option selected>Choose</option>
+                          <option>NL</option>
+                          <option>PE</option>
+                          <option>NS</option>
+                          <option>NB</option>
+                          <option>QC</option>
+                          <option>ON</option>
+                          <option>MB</option>
+                          <option>SK</option>
+                          <option>AB</option>
+                          <option>BC</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label class="lead">Postal code</label>
+                        <input type="text" class="form-control" placeholder="Postal code">
+                      </div>
+                      <label class="form-label lead">Items to add/remove</label>
+                      <textarea class="form-control"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-lg">Save changes</button>
+                  </form>
+            </div>
+          </div>
+       </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

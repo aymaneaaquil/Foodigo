@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/aisles.css">
+        <title>Admin panel</title>
+    </head>
+    <body>
+        <!---Unsticky navbar (all centered)-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4">
+                            <a href="/index.html" class="nav-link lead navbar-brand">Foodigo</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-4">
+                            <a href="/html/backstore/admincontrol.html" class="nav-link lead">Admin panel</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#" class="nav-link lead">Welcome Admin !</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/html/login.html" class="nav-link lead">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>   
+        <nav class="navbar bg-dark navbar-dark sticky-top">
+            <div class="container">
+                <a href="#" class="navbar-brand mx-auto lead">Admin panel</a>
+            </div>
+        </nav>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white ">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">User List</h3>
+                                <a href="/html/backstore/userlist.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Navigate</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">Product List</h3>
+                                <a href="/html/backstore/productlist.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Navigate</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center text-dark bg-white">
+                        <div class="card-body">
+                            <h3 class="card-title display-5">Order List</h3>
+                                <a href="/html/backstore/OrderList.html"><button class="buttonshad buttonstyling bg-primary text-light mx-5">Shop</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
