@@ -70,20 +70,29 @@
               <div class="col-md-8">
                 <div class="card-body mx-5">
                   <h5 class="card-title h1 pl-5 mx-2 d-flex">Shaved turkey</h5>
-                  <p class="card-text pl-5 mx-2 lead font-weight-bold d-flex">7.49$/each</p>
+                  <!--GET PRICE FROM HERE-->
+                  <p class="card-text pl-5 mx-2 lead font-weight-bold d-flex"><span id="price">7.99</span>$/250g</p>
+                  <!--GET PRICE FROM HERE-->
                   <p class="card-text pl-5 mx-2 lead smal d-flex">Natural selection</p>
                   <p class="card-text pl-5 mx-2 lead small d-flex">Product ID: 2001</p>
                   <p class="card-text pl-5 mx-2 lead small d-flex">Weight: 175g</p>
                   <div class="container d-flex alignmentcard">
                     <div class="d-flex mx-3">
-                        <div class="num-block skin">
-                            <div class="num-in">
-                              <span class="minus dis"></span>
-                              <input type="text" class="in-num" value="1" readonly="">
-                              <span class="plus"></span>
-                            </div>
+                        <!--QUANTITY BUTTONS START-->
+                        <div class="num-block skin-5">
+                            <div class="num-block skin-2 pt-2">
+                                <div class="num-in">
+                                  <span class="minus dis" id="decrease" onclick="decreaseValue()"></span>
+                                  <input type="text" id="qty" min="0" value="0"/
+                                  readonly>
+                                  <span class="plus" id="increase" onclick="increaseValue()"></span>
+                                </div>
+                              </div>
                           </div>
-                      <button class="buttonshad buttonstyling bg-primary text-light mx-5">Add</button>
+                          <!--QUANTITY BUTTONS END-->
+                       <!--ADD TO CART BUTTON-->
+                       <button class="rounded buttonshad buttonstyling bg-primary text-light mx-5">Add $<span id="totalprice">0.00</span></button>
+                       <!--ADD TO CART BUTTON-->
                     </div>      
                   </div>
                   <div class="container pt-4 px-5 mx-1">
@@ -97,7 +106,7 @@
               </div>
             </div>
           </div>
-          
+          <script src="./meat.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
