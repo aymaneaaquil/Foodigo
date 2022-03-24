@@ -15,7 +15,8 @@ plus.addEventListener('click', e =>{
   document.getElementById("totalprice").innerHTML=finalPrice.toFixed('2');
   saveToLs();
 })
-  minus.addEventListener('click', e =>{
+  
+minus.addEventListener('click', e =>{
   value = parseInt(document.getElementById("qty").value, '10');
   value = isNaN(value) ? '0' : value;
   value < '1' ? value = '1' : '';
@@ -27,7 +28,7 @@ plus.addEventListener('click', e =>{
   saveToLs();
 })
 
-function save34ToLs(){
+function saveToLs(){
   localStorage.setItem('quantity',value)
   localStorage.setItem('fPrice',finalPrice)
   document.getElementById("qty").value = localStorage.getItem('quantity')
